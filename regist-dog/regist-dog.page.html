@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>regist-dog</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="main">
+  <form (ngSubmit)="regist_dog()" #loginForm="ngForm">
+
+    <ion-input type="text" id='input1' class='input1' [(ngModel)]="dogname" name="dogname" placeholder='     이름' required></ion-input>
+    <ion-input type="text" id='input2' class='input2' [(ngModel)]="dogbreed" name="dogbreed" placeholder='     견종' required></ion-input>
+    <ion-input type="text" id='input3' class='input3' [(ngModel)]="dogsex" name="dogsex" placeholder='     성별' required></ion-input>
+    <ion-input type="text" id='input4' class='input4' [(ngModel)]="dogbirth" name="dogbirth" placeholder='     생년월일(8자리)' required></ion-input>
+    <input type="file" (change)="onFileSelected($event)" name="dogimage" class="upload" accept="image/*">
+
+		<ion-button type='submit' id='button' class='button' (click)="goToListPage()" expand="full">등록</ion-button>
+  
+  </form>
+  
+
+  <div id='title' class='title'>Dog Paw</div>
+
+  <img id="regist_dog" class="regist_dog" src="assets/regist_dog.png" alt="image">
+
+  <button type="button" class="button-menu" (click)="goToMenuPage()"><img class="img-menu" src="assets/img_menu.png" alt="image"/></button>
+
+</ion-content>

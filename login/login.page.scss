@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Cute+Font&display=swap');
+
+
+.main {
+position: absolute;
+--background:rgba(255, 233, 151, 0.800000011920929);
+height: 844px;
+width: 390px;
+padding: 0px;
+}
+
+.button {
+--background: #FF9500;
+height: 45px;
+width: 254px;
+border-radius: 15px;
+left: 65px;
+top: 548px;
+position: absolute;
+filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+}
+
+.password {
+background-color: #ffffff;
+height: 45px;
+width: 260px;
+border-radius: 15px;
+left: 65px;
+top: 483px;
+position: absolute;
+filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+}
+
+.id {
+background-color: #ffffff;
+height: 45px;
+width: 260px;
+border-radius: 15px;
+top: 418px;
+left: 65px;
+position: absolute;
+filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+}
+
+.text1
+{
+color:#ffffff;
+text-align:center;
+vertical-align:text-top;
+font-size:22px;
+font-family:Inter;
+left:164px;
+top:557px;
+width:62px;
+height:27px;
+position:absolute;
+line-height:auto;
+border-style:hidden;
+outline:none;
+}
+.line2
+{
+width:95px;
+transform:rotate(-1deg);
+border:1px solid #000000;
+top:627px;
+left:230px;
+position:absolute;
+}
+.line1
+{
+width:95px;
+transform:rotate(-1deg);
+border:1px solid #000000;
+top:626px;
+left:65px;
+position:absolute;
+}
+.text6
+{
+color:#1400ff;
+text-align:center;
+vertical-align:text-top;
+font-size:16px;
+font-family:Inter;
+left:221px;
+top:744px;
+width:81px;
+height:19px;
+position:absolute;
+line-height:auto;
+border-style:hidden;
+outline:none;
+}
+.text5
+{
+color:#000000;
+text-align:center;
+vertical-align:text-top;
+font-size:16px;
+font-family:Inter;
+left:83px;
+top:744px;
+width:152px;
+height:19px;
+position:absolute;
+line-height:auto;
+border-style:hidden;
+outline:none;
+}
+.text4
+{
+color:#1400ff;
+text-align:center;
+vertical-align:text-top;
+font-size:16px;
+font-family:Inter;
+left:206px;
+top:680px;
+width:141px;
+height:19px;
+position:absolute;
+line-height:auto;
+border-style:hidden;
+outline:none;
+}
+.text3
+{
+color:#000000;
+text-align:center;
+vertical-align:text-top;
+font-size:16px;
+font-family:Inter;
+left:38px;
+top:680px;
+width:206px;
+height:19px;
+position:absolute;
+line-height:auto;
+border-style:hidden;
+outline:none;
+}
+.text2
+{
+color:#000000;
+text-align:center;
+vertical-align:text-top;
+font-size:16px;
+font-family:Inter;
+left:169px;
+top:617px;
+width:52px;
+height:19px;
+position:absolute;
+line-height:auto;
+border-style:hidden;
+outline:none;
+}
+.title
+{
+color:#000000;
+text-align:center;
+vertical-align:text-top;
+font-size:60px;
+font-family:Inter;
+left:50px;
+top:100px;
+width:290px;
+height:80px;
+position:absolute;
+line-height:auto;
+border-style:hidden;
+outline:none;
+}
+.login_dog
+{
+height:215.47116088867188px;
+width:200px;
+filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+left:100px;
+top:191px;
+position:absolute;
+}
+
+.button,
+.text6,
+.text5,
+.text4,
+.text3,
+.text2,
+.text1,
+.title
+{
+    font-family: "Bagel Fat One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  }

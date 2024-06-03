@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Cute+Font&display=swap');
+
+.main
+{
+position:absolute;
+--background:rgba(255, 233, 151, 0.800000011920929);
+height:844px;
+width:390px;
+padding:0px;
+}
+.button
+{
+--background:rgba(255, 149, 0, 0.800000011920929);
+height:45px;
+width:260px;
+left:65px;
+top:710px;
+position:absolute;
+filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+}
+.input4
+{
+background-color:#ffffff;
+height:45px;
+width:260px;
+top:574px;
+left:65px;
+position:absolute;
+border-radius: 15px;
+filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+}
+.input3
+{
+background-color:#ffffff;
+height:45px;
+width:260px;
+top:517px;
+left:65px;
+position:absolute;
+border-radius: 15px;
+filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+}
+.input2
+{
+background-color:#ffffff;
+height:45px;
+width:260px;
+top:460px;
+left:65px;
+position:absolute;
+border-radius: 15px;
+filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+}
+.input1
+{
+background-color:#ffffff;
+height:45px;
+width:260px;
+top:405px;
+left:65px;
+position:absolute;
+border-radius: 15px;
+filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+}
+.title
+{
+color:#000000;
+text-align:center;
+vertical-align:text-top;
+font-size:60px;
+font-family:Inter;
+left:50px;
+top:100px;
+width:290px;
+height:80px;
+position:absolute;
+line-height:auto;
+border-style:hidden;
+outline:none;
+}
+.regist_dog
+{
+height:215.47116088867188px;
+width:200px;
+filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+left:100px;
+top:185px;
+position:absolute;
+}
+
+.input5
+{
+background-color:#ffffff;
+height:45px;
+width:260px;
+top:631px;
+left:65px;
+position:absolute;
+border-radius: 15px;
+filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+}
+
+.input1,
+.input2,
+.input3,
+.input4,
+.input5,
+.title,
+.button
+{
+font-family: "Bagel Fat One", system-ui;
+font-weight: 400;
+font-style: normal;
+}

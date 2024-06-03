@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>age_result</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="main">
+  <div class="rectangle"></div>
+  <div class="title">
+    <span class="title-span">
+      나이 계산<br />
+      결과
+      
+    </span>
+  </div>
+  <div class="div">!</div>
+  <div class="line-4"></div>
+  <img class="dog" src="assets/login_dog.png" />
+  <div class="text-1">우리 아이의 나이는</div>
+  <div class="result">{{ dogAge }}</div>
+  <div class="text-2">살 입니다!</div>
+  <div class="text-3">
+    아직 모든 강아지의 나이를
+    <br />
+    사람 나이로 정확하게 변환하는 연구
+    <br />
+    결과는 없습니다.
+    <br />
+    강아지마다 나이가 든 속도가 다릅니다.
+  </div>
+  <img class="dog-paw" src="assets/dogPaw.png" />
+
+  <button type="button" class="button-menu" (click)="goToMenuPage()"><img class="img-menu" src="assets/img_menu.png" alt="image"/></button>  
+
+</ion-content>

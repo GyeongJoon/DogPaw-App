@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>water_result</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class = "main">
+    <div class="line-4"></div>
+    <div class="div">!</div>
+    <img class="dog" src="assets/login_dog.png" />
+    <div class="rectangle"></div>
+    <div class="text-2">1일 권장 수분 섭취량</div>
+    <div class="text-1">우리 아이의</div>
+    <div class="title">
+      수분 섭취량
+      <br />
+      결과
+      <br />
+      <br />
+    </div>
+    <div class="result">{{ waterIntake }}</div>
+    <div class="ml">L</div>
+    <div class="text-3">
+      아이의 활동량과 날씨에 따라
+      <br />
+      권장 수분 섭취량이 다를 수 있습니다.
+      <br />
+      활동량과 날씨가 더우면 권장
+      <br />
+      수분 섭취량보다 더 많은
+      <br />
+      수분을 섭취하면 좋습니다.
+    </div>
+    <img class="dog-paw" src="assets/dogPaw.png" /> 
+
+    <button type="button" class="button-menu" (click)="goToMenuPage()"><img class="img-menu" src="assets/img_menu.png" alt="image"/></button>  
+
+</ion-content>

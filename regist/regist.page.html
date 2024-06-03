@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>regist</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="main">
+  <form (ngSubmit)="regist()" #loginForm="ngForm">
+
+    <ion-input type="text" id='input1' class='input1' [(ngModel)]="name" name="name" placeholder='     이름' required></ion-input>
+    <ion-input type="text" id='input2' class='input2' [(ngModel)]="birth" name="birth" placeholder='     생년월일(8자리)' required></ion-input>
+		<ion-input type="text" id='input3' class='input3' [(ngModel)]="email" name="email" placeholder='     이메일' required></ion-input>
+		<ion-input type="text" id='input4' class='input4' [(ngModel)]="password" name="passWord" placeholder='     비밀번호' required></ion-input>
+		<ion-input type="text" id='input5' class='input5' [(ngModel)]="telephone" name="telePhone" placeholder='     휴대폰번호' required></ion-input>
+		<ion-button type='submit' id='button' class='button' (click)="goToLoginPage()" expand="full">가입완료</ion-button>
+  
+  </form>
+
+  <div id='title' class='title'>Dog Paw</div>
+
+  <img id="regist_dog" class="regist_dog" src="assets/regist_dog.png" alt="image">
+
+</ion-content>

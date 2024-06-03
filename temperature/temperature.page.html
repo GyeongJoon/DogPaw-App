@@ -1,0 +1,48 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>temperature</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class = "main">
+  <div class="calculater-temperature">
+    <div class="line-4"></div>
+    <div class="line-6"></div>
+    <div class="line-5"></div>
+    <div class="div">?</div>
+    <div class="title">
+      체온 계산기
+      <br />
+      <br />
+    </div>
+    <img class="dog" src="assets/login_dog.png" />
+    <ion-button class="result-bt" type="submit" (click)="calculateResult()" expand="full">결과 보기</ion-button>
+    <div class="tip">
+      <span>
+        <span class="tip-span">
+          Tip. 강아지 체온 재는 법
+          <br />
+        </span>
+        <span class="tip-span2">
+          1. 강아지를 편안한 자세로 고정한다.
+          <br />
+          2. 체온계에 윤활유를 바른다.
+          <br />
+          3. 체온계를 항문에 넣는다.
+          <br />
+          4. 체온계에서 소리가 나올 때까지
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;최대한 움직이지 않는다.
+          <br />
+          5. 체온계를 소독한다.
+        </span>
+      </span>
+    </div>
+    <div class="text-1">체온</div>
+    <div class="input-wrapper1">
+      <ion-input class="input" name="temperature" type="number" [(ngModel)]="temperature" required></ion-input>
+    </div>
+    <img class="dog-paw" src="assets/dogPaw.png" />
+  </div>
+  
+</ion-content>

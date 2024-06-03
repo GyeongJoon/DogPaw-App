@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>age</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="main">
+  <form (submit)="age()">
+    <div class="calculater-age">
+      <div class="line-4"></div>
+      <div class="line-5"></div>
+      <div class="title">
+        <span class="title-span">
+          나이 계산기
+          <br />
+        </span>
+      </div>
+      <div class="div">?</div>
+      <ion-button class="result-bt" type="submit" expand="full">결과 보기</ion-button>
+      <div class="text-1">생년월일</div>
+      <div class="input-wrapper">
+        <ion-input class="input-1" name="birthday" type="date" displayFormat="YYYY-MM-DD" [(ngModel)]="birthday" required>  </ion-input>
+      </div>
+      <div class="text-2">
+        반려동물 크기
+        <br />
+      </div>
+      <div class="radio-group">
+        <input type="radio" id="small" name="pet-size" value="small" [(ngModel)]="petSize">
+        <label for="small" class="radio-bt-1-text">소형</label>
+        <input type="radio" id="medium" name="pet-size" value="medium" [(ngModel)]="petSize">
+        <label for="medium" class="radio-bt-2-text">중형</label>
+        <input type="radio" id="large" name="pet-size" value="large" [(ngModel)]="petSize">
+        <label for="large" class="radio-bt-3-text">대형</label>
+      </div>
+      <img class="dog" src="assets/login_dog.png" />
+      <img class="dog-paw" src="assets/dogPaw.png" />
+    </div>
+  </form>
+</ion-content>

@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>regist_dog_list</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="main">
+
+    <div class="title">Dog Paw</div>
+    <img class="regist-dog" src="assets/login_dog.png" />
+    <img class="dog-paw" src="assets/dogPaw.png" />
+    <div class="div">애견리스트</div>
+    <ion-list id='list' class='list'>
+      <ion-item *ngFor="let item of data" (click)="showDetails(item)" class="item-text">
+        [{{item.dog_id}}][{{item.dogname}}][{{item.dogsex}}][{{ item.dogbirth | date: 'yyyy-MM-dd' }}]
+      </ion-item>      
+    </ion-list>
+
+    <ion-button type='submit' id='button' class='button' (click)="goToRegistDogPage()" expand="full">등록하기</ion-button>
+
+    <button type="button" class="button-menu" (click)="goToMenuPage()"><img class="img-menu" src="assets/img_menu.png" alt="image"/></button>
+
+  
+</ion-content>

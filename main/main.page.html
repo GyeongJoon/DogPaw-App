@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>main</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="main">
+    <div class="title">Dog Paw</div>
+    <button type="button" class="button-age" (click)="goToAgePage()">나이 계산기</button>
+    <button type="button" class="button-bmi"(click)="goToBmiPage()">비만도 계산기</button>
+    <button type="button" class="button-kcal"(click)="goToKcalPage()">권장 칼로리 계산기</button>
+    <button type="button" class="button-momentum"(click)="goToMomentumPage()">운동량 계산기</button>
+    <button type="button" class="button-temperature"(click)="goToTemperaturePage()">체온 계산기</button>
+    <button type="button" class="button-water"(click)="goToWaterPage()">수분 섭취량 계산기</button>
+
+    <img id="dog-paw" class="dog-paw" src="assets/dogPaw.png" alt="image">
+    
+    <button type="button" class="button-profile" (click)="goToLoginPage()"><img class="img-profile" src="assets/img_profile.png" alt="image"/></button>
+    
+</ion-content>

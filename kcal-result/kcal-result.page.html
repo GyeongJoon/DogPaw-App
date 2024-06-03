@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>kcal_result</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="main">
+    <div class="div">!</div>
+    <div class="line-4"></div>
+    <img class="dog" src="assets/login_dog.png" />
+    <div class="rectangle"></div>
+    <div class="result-1">{{ bmr }}</div>
+    <div class="result-2">{{ totalCalories.toFixed(1) }}</div>
+    <div class="text-2">1일 권장 칼로리</div>
+    <div class="text-3">1일 기초 대사량</div>
+    <div class="kcal-1">kcal</div>
+    <div class="kcal-2">kcal</div>
+    <div class="title">
+      권장 칼로리
+      <br />
+      결과
+      <br />
+      <br />
+    </div>
+    <div class="text-1">우리 아이의</div>
+    <img class="dog-paw" src="assets/dogPaw.png" />
+
+    <button type="button" class="button-menu" (click)="goToMenuPage()"><img class="img-menu" src="assets/img_menu.png" alt="image"/></button>
+
+  
+</ion-content>

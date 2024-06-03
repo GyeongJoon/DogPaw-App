@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="main">
+    <img class="dog-paw" src="assets/dogPaw.png" />
+    
+      <img class="image" [src]="imageUrl" alt="Dog Image" *ngIf="imageUrl">
+
+    <div id='profile' class="profile">
+      <div *ngIf="selectedItem">
+        <p>번호: {{ selectedItem.dog_id }}</p>
+        <p>견명: {{ selectedItem.dogname }}</p>
+        <p>견종: {{ selectedItem.dogbreed }}</p>
+        <p>성별: {{ selectedItem.dogsex }}</p>
+        <p>생년월일: {{ selectedItem.dogbirth | date: 'yyyy-MM-dd' }}</p>
+        <p>등록일자: {{ selectedItem.time_stamp | date: 'yyyy-MM-dd' }}</p>
+      </div>
+    </div>
+
+    <button type="button" class="button-menu" (click)="goToMenuPage()"><img class="img-menu" src="assets/img_menu.png" alt="image"/></button>
+</ion-content>

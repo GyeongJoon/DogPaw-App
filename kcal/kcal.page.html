@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>kcal</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="main">
+  <form (submit)="kcal()">
+    <div class="calculater-kcal">
+      <div class="line-4"></div>
+      <div class="line-5"></div>
+      <div class="title">
+        <span class="title-span">
+          권장 칼로리 계산기
+          <br />
+        </span>
+      </div>
+      <div class="div">?</div>
+      <ion-button class="result-bt" type="submit" expand="full">결과 보기</ion-button>
+      <div class="text-1">체중(kg)</div>
+      <div class="input-wrapper1">
+        <ion-input class="input-1" name="weight" type="number" [(ngModel)]="weight" required min="0" max="100"></ion-input>
+      </div>
+      <div class="text-2">나이</div>
+      <div class="input-wrapper2">
+        <ion-input class="input-2" name="age" type="number" [(ngModel)]="age" required min="0" max="30"></ion-input>
+      </div>      
+      <div class="text-3">
+        활동량
+        <br />
+      </div>
+      <div class="radio-group">
+        <input type="radio" id="low" name="activity-level" value="low" [(ngModel)]="activityLevel">
+        <label for="low" class="radio-bt-1-text">낮음</label>
+        <input type="radio" id="normal" name="activity-level" value="normal" [(ngModel)]="activityLevel">
+        <label for="normal" class="radio-bt-2-text">보통</label>
+        <input type="radio" id="high" name="activity-level" value="high" [(ngModel)]="activityLevel">
+        <label for="high" class="radio-bt-3-text">높음</label>
+      </div>      
+      <img class="dog" src="assets/login_dog.png" />
+      <img class="dog-paw" src="assets/dogPaw.png" />
+    </div>
+  </form>
+</ion-content>
+
