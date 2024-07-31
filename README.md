@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/14a051b6-79db-40f5-bf0c-45e3f3c9af10)# Dog-Paw App(애견 관리 및 계산기 앱)
+# Dog-Paw App(애견 관리 및 계산기 앱)
 
 ## 1. 프로젝트 개요
 ### 1-1. 기획 배경
